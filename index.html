@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Slide Animation</title>
+  </head>
+  <body>
+    <main>
+      <section class="landing">
+        <nav>
+          <h1 id="logo">Inamura.K</h1>
+          <ul class="nav-links">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+        <h2 class="big-text">Mazda 3 Fastback</h2>
+      </section>
+    </main>
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">HTML</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">CSS</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">JavaScript.</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Inamura.K <span>Code</span></h2>
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">ブログ</a></li>
+          <li><a href="#">ポートフォリオ</a></li>
+        </ul>
+        <a href="#" class="btn">お問い合わせ</a>
+      </nav>
+
+      <div class="content">
+        <div class="body">
+          <div class="portfolioInfo">
+            <h4>Webエンジニア</h4>
+            <h1>Inamura.K <span>Code</span></h1>
+            <h3>HTML/CSS/Javascript</h3>
+            <div class="newslatter">
+              <form>
+                <input
+                  type="email"
+                  name="email"
+                  id="mail"
+                  placeholder="メールアドレスを入力"
+                />
+                <input type="submit" name="submit" value="お問い合わせ" />
+              </form>
+            </div>
+          </div>
+          <img src="./img/person2.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="main">
+        <img src="./img/person.png" alt="" />
+        <div class="about-text">
+          <h2>About me</h2>
+          <h5>Web Engineer</h5>
+          <p>
+            Web言語を主に学んできました。
+            最近ではデータベース、アプリ開発言語にも挑戦しています。
+          </p>
+          <button type="button">お問い合わせ</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section start -->
+    <div class="service">
+      <div class="title">
+        <h2>ポートフォリオ</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"> </i>
+          <h5>Web Weather app</h5>
+          <div class="pra">
+            <p>
+               こちらは天気予報webサイトです。<br>
+               今いる地域の気温天気がわかります。
+               HTML CSS JavaScriptで構成されています。<br>
+            </p>
+            <p style="text-align: center">
+              <a href="weather/index.html" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-user"> </i>
+          <h5>C#,写真ギャラリー</h5>
+          <div class="pra">
+            <p>
+              デスクトップパソコンでのC#開発<br>
+              本やYoutube、ブログ等で学習<br>
+              tetrisアプリ
+            </p>
+            <p style="text-align: center">
+              <a href="image-gallery/image-gallery-with-lightbox-main/index.html" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-bell"> </i>
+          <h5>Web Developer</h5>
+          <div class="pra">
+            <p>
+              現在制作中です。
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contact">
+      <p>気になる方は私にお問い合わせください。</p>
+      <a href="#" class="button-two">お問い合わせ</a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Inamura.K</p>
+      <p>my SNS</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="end">CopyRight@Inamura.K</p>
+    </footer>
+  </body>
+</html>
